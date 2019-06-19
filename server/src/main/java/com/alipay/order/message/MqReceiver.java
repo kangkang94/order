@@ -48,6 +48,6 @@ public class MqReceiver {
             value = @Queue("fruit")
     ))
     public void processFruit(String message) {
-        System.out.println("这是康宇航的消息" + message);
+        System.out.println("超前一个版本" + message);
     }
 }
