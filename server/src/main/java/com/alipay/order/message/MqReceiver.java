@@ -33,7 +33,7 @@ public class MqReceiver {
             value = @Queue("computer")
     ))
     public void processComputer(String message) {
-        System.out.println("这是kangyuhang的消息" + message);
+        System.out.println("A提交一个版本但是没有push；远程库已经超前一个版本" + message);
     }
 
 
