@@ -33,7 +33,7 @@ public class MqReceiver {
             value = @Queue("computer")
     ))
     public void processComputer(String message) {
-        System.out.println("数码供应商" + message);
+        System.out.println("这是康宇航的消息" + message);
     }
 
 
@@ -48,6 +48,6 @@ public class MqReceiver {
             value = @Queue("fruit")
     ))
     public void processFruit(String message) {
-        System.out.println("水果供应商" + message);
+        System.out.println("这是康宇航的消息" + message);
     }
 }
