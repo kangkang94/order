@@ -33,7 +33,7 @@ public class MqReceiver {
             value = @Queue("computer")
     ))
     public void processComputer(String message) {
-        System.out.println("这是康宇航的消息" + message);
+        System.out.println("这是kangyuhang的消息" + message);
     }
 
 
