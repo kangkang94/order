@@ -35,6 +35,10 @@ public class MqReceiver {
     public void processComputer(String message) {
         System.out.println("A提交一个版本但是没有push；远程库已经超前一个版本" + message);
         System.out.println("这是feature-1 分支" + message);
+        System.out.println("这是feature-1 分支" + message);
+        System.out.println("这是feature-1 分支" + message);
+        System.out.println("这是feature-1 分支" + message);
+        System.out.println("这是feature-1 分支" + message);
     }
 
 
